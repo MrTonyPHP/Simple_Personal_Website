@@ -1,0 +1,809 @@
+body {
+    background-color: black;    
+    font-family: sans-serif;
+}
+html {
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.header-home-button {
+    float: right;
+    color: blue;
+    background-color: transparent;
+    font-size: 22px;
+    border-style: solid;
+    border-color: blue;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 33px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.header-home-button:hover {
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    transition: 0.1s;
+}
+.header-about-button {
+    float: right;
+    color: blue;
+    background-color: transparent;
+    font-size: 22px;
+    border-style: solid;
+    border-color: blue;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 33px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.header-about-button:hover {
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    transition: 0.1s; 
+}
+.header-contact-button {
+    float: right;
+    color: blue;
+    background-color: transparent;
+    font-size: 22px;
+    border-style: solid;
+    border-color: blue;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 33px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.header-contact-button:hover {
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    transition: 0.1s; 
+}
+.header-mywork-button {
+    float: right;
+    color: blue;
+    background-color: transparent;
+    font-size: 22px;
+    border-style: solid;
+    border-color: blue;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 33px;
+    margin-right: 1cm;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.header-mywork-button:hover {
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    transition: 0.1s; 
+}
+
+
+.top-div {
+    margin-top: 3.5cm;
+}
+.text-1034 {
+    color: white;
+    font-family: cursive;
+    margin-left: 2.6cm;
+    font-size: 31px;
+}
+.p-1254 {
+    color: rgb(201, 201, 0);
+    margin-left: 2.9cm;
+    position: relative;
+    bottom: 11px;
+}
+.learn-more-button {
+    margin-left: 4cm;
+    border-color: blue;
+    background-color: transparent;
+    color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    border-style: solid;
+}
+.learn-more-button:hover {
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    border-color: white;
+    transition: 0.1s;
+}
+.man-img {
+    height: 415px;
+    width: 335px;
+    float: right;
+    margin-right: 6.4cm;
+    position: relative;
+    bottom: 6.5cm;
+}
+#about {
+    text-align: center;
+}
+.h3-9843 {
+    color: white;
+    font-size: 25px;
+}
+.p-about {
+    color: white;
+}
+
+
+.contact-title {
+    color: white;
+}
+.name-label {
+    color: white;
+    font-size: 21px;
+    font-family: cursive;
+    margin-right: 170px;
+}
+.name-input {
+    width: 235px;
+    height: 21px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+.email-label {
+    color: white;
+    font-size: 21px;
+    font-family: cursive;
+    margin-right: 170px;
+}
+.email-input {
+    width: 235px;
+    height: 21px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+.message-label {
+    color: white;
+    font-size: 21px;
+    font-family: cursive;
+    margin-right: 210px;
+}
+.message-input {
+    resize: none;
+    width: 300px;
+    height: 88px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+.contact-submit-button {
+    font-size: 18px;
+    margin-top: 11px;
+    color: black;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: white;
+    border-style: solid;
+    cursor: pointer;
+}
+.contact-submit-button:hover {
+    color: blue;
+    transition: 0.3s;
+}
+
+
+.top-mw-div {
+    margin-top: 2.2cm;
+}
+.top-h1-843 {
+    color: white;
+}
+.label-htmlcss {
+    color: white;
+    margin-left: 4.5cm;
+    font-weight: bold;
+}
+.html-css {
+    background-color: rgb(133, 133, 133);
+    height: 20px;
+    width: 270px;
+    border-radius: 15px;
+    margin-left: 4.5cm;
+    margin-top: 11px;
+}  
+.html-css1 {
+    background-color: white;
+    height: 20px;
+    width: 261px;
+    border-radius: 15px;
+    margin-left: 4.5cm;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+.label-wordpress {
+    color: white;
+    margin-left: 4.5cm;
+    font-weight: bold;
+}
+.wordpress {
+    background-color: rgb(133, 133, 133);
+    height: 20px;
+    width: 270px;
+    border-radius: 15px;
+    margin-left: 4.5cm;
+    margin-top: 11px;
+}  
+.wordpress1 {
+    background-color: white;
+    height: 20px;
+    width: 240px;
+    border-radius: 15px;
+    margin-left: 4.5cm;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+.label-phpmysql {
+    color: white;
+    margin-left: 4.5cm;
+    font-weight: bold;
+}
+.phpmysql {
+    background-color: rgb(133, 133, 133);
+    height: 20px;
+    width: 270px;
+    border-radius: 15px;
+    margin-left: 4.5cm;
+    margin-top: 11px;
+}  
+.phpmysql1 {
+    background-color: white;
+    height: 20px;
+    width: 261px;
+    border-radius: 15px;
+    margin-left: 4.5cm;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+.label-js {
+    color: white;
+    margin-left: 4.5cm;
+    font-weight: bold;
+}
+.js {
+    background-color: rgb(133, 133, 133);
+    height: 20px;
+    width: 270px;
+    border-radius: 15px;
+    margin-left: 4.5cm;
+    margin-top: 11px;
+}  
+.js1 {
+    background-color: white;
+    height: 20px;
+    width: 180px;
+    border-radius: 15px;
+    margin-left: 4.5cm;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+.div-1012 {
+    background-color: rgb(88, 88, 88);
+    border-radius: 8px;
+}
+.google-logo {
+    margin-left: 35px;
+}
+.fb-logo {
+    height: 105px;
+    width: 105px;
+    margin-left: 30px;
+}
+.yt-logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 30px;
+}
+.amazon-logo {
+    height: 80px;
+    width: 240px;
+    margin-left: 30px;
+}
+.pm-logo {
+    width: 210px;
+    height: 120px;
+    margin-left: 30px;
+}
+.wp-logo {
+    margin-left: 20px;
+}
+.div-10 {
+    float: right;
+    margin-right: 100px;
+}
+
+
+/* The Media Screen Size */
+
+@media screen and (max-width: 1025px) {
+    .man-img {
+        margin-right: 4cm;
+    }
+}
+@media screen and (max-width: 910px) {
+    .man-img {
+        margin-right: 2cm;
+    }
+}
+@media screen and (max-width: 840px) {
+    .man-img {
+        margin-right: 1cm;
+    }
+}
+@media screen and (max-width: 805px) {
+    .man-img {
+        margin-right: 25px;
+        height: 390px;
+        width: 300px;
+        
+    }
+}
+@media screen and (max-width: 740px) {
+    .man-img {
+        margin-right: 25px;
+        height: 390px;
+        width: 300px;
+        
+    }
+    .text-1034 {
+        margin-left: 1cm;
+    }
+    .p-1254 {
+        margin-left: 1.5cm;
+    }
+    .learn-more-button {
+        margin-left: 2.2cm;
+    }
+}
+@media screen and (max-width: 677px) {
+    .man-img {
+        margin-right: 25px;
+        height: 390px;
+        width: 300px;
+        
+    }
+    .text-1034 {
+        margin-left: 0.5cm;
+        font-size: 25px;
+    }
+    .p-1254 {
+        margin-left: 0.8cm;
+    }
+    .learn-more-button {
+        margin-left: 1.5cm;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .man-img {
+        position: relative;
+        top: 1cm;
+        margin-right: 4cm;
+    }
+    .text-1034 {
+        margin-left: 3.5cm;
+        font-size: 35px;
+    }
+    .p-1254 {
+        margin-left: 4.6cm;
+    }
+    .learn-more-button {
+        margin-left: 6.3cm;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 585px) {
+    .header-contact-button {
+        display: none;
+    }
+    .header-about-button {
+        display: none;
+    }
+}
+@media screen and (max-width: 540px) {
+    .man-img {
+        position: relative;
+        top: 1cm;
+        margin-right: 3cm;
+    }
+    .text-1034 {
+        margin-left: 2.5cm;
+        font-size: 35px;
+    }
+    .p-1254 {
+        margin-left: 3.9cm;
+    }
+    .learn-more-button {
+        margin-left: 5.5cm;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .man-img {
+        position: relative;
+        top: 1cm;
+        margin-right: 2cm;
+    }
+    .text-1034 {
+        margin-left: 1.7cm;
+        font-size: 35px;
+    }
+    .p-1254 {
+        margin-left: 2.6cm;
+    }
+    .learn-more-button {
+        margin-left: 4.5cm;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .man-img {
+        position: relative;
+        top: 1cm;
+        margin-right: 1.6cm;
+    }
+    .text-1034 {
+        margin-left: 1cm;
+        font-size: 35px;
+    }
+    .p-1254 {
+        margin-left: 2.1cm;
+    }
+    .learn-more-button {
+        margin-left: 3.7cm;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .div-10 {
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 910px) {
+    .label-htmlcss {
+        margin-left: 3cm;
+    }
+    .html-css {
+        margin-left: 3cm;
+    }
+    .html-css1 {
+        margin-left: 3cm;
+    }
+    .label-wordpress {
+        margin-left: 3cm;
+    }
+    .wordpress {
+        margin-left: 3cm;
+    }
+    .wordpress1 {
+        margin-left: 3cm;
+    }
+    .label-phpmysql {
+        margin-left: 3cm;
+    }
+    .phpmysql {
+        margin-left: 3cm;
+    }
+    .phpmysql1 {
+        margin-left: 3cm;
+    }
+    .label-js {
+        margin-left: 3cm;
+    }
+    .js {
+        margin-left: 3cm;
+    }
+    .js1 {
+        margin-left: 3cm;
+    }
+
+}
+@media screen and (max-width: 856px) {
+    .label-htmlcss {
+        margin-left: 2cm;
+    }
+    .html-css {
+        margin-left: 2cm;
+    }
+    .html-css1 {
+        margin-left: 2cm;
+    }
+    .label-wordpress {
+        margin-left: 2cm;
+    }
+    .wordpress {
+        margin-left: 2cm;
+    }
+    .wordpress1 {
+        margin-left: 2cm;
+    }
+    .label-phpmysql {
+        margin-left: 2cm;
+    }
+    .phpmysql {
+        margin-left: 2cm;
+    }
+    .phpmysql1 {
+        margin-left: 2cm;
+    }
+    .label-js {
+        margin-left: 2cm;
+    }
+    .js {
+        margin-left: 2cm;
+    }
+    .js1 {
+        margin-left: 2cm;
+    }
+
+}
+@media screen and (max-width: 815px) {
+    .label-htmlcss {
+        margin-left: 1cm;
+    }
+    .html-css {
+        margin-left: 1cm;
+    }
+    .html-css1 {
+        margin-left: 1cm;
+    }
+    .label-wordpress {
+        margin-left: 1cm;
+    }
+    .wordpress {
+        margin-left: 1cm;
+    }
+    .wordpress1 {
+        margin-left: 1cm;
+    }
+    .label-phpmysql {
+        margin-left: 1cm;
+    }
+    .phpmysql {
+        margin-left: 1cm;
+    }
+    .phpmysql1 {
+        margin-left: 1cm;
+    }
+    .label-js {
+        margin-left: 1cm;
+    }
+    .js {
+        margin-left: 1cm;
+    }
+    .js1 {
+        margin-left: 1cm;
+    }
+
+}
+@media screen and (max-width: 777px) {
+    .div-10 {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 737px) {
+    .div-10 {
+        display: none;
+    }
+    .top-mw-div {
+        text-align: center;
+        font-size: 20px;
+    }
+    .html-css {
+        margin-left: 6.6cm;
+    }
+    .html-css1 {
+        margin-left: 6.6cm;
+    }
+    .wordpress {
+        margin-left: 6.6cm;
+    }
+    .wordpress1 {
+        margin-left: 6.6cm;
+    }
+    .phpmysql {
+        margin-left: 6.6cm;
+    }
+    .phpmysql1 {
+        margin-left: 6.6cm;
+    }
+    .js {
+        margin-left: 6.6cm;
+    }
+    .js1 {
+        margin-left: 6.6cm;
+    }
+}
+@media screen and (max-width: 677px) {
+    .div-10 {
+        display: none;
+    }
+    .top-mw-div {
+        text-align: center;
+        font-size: 20px;
+    }
+    .html-css {
+        margin-left: 6cm;
+    }
+    .html-css1 {
+        margin-left: 6cm;
+    }
+    .wordpress {
+        margin-left: 6cm;
+    }
+    .wordpress1 {
+        margin-left: 6cm;
+    }
+    .phpmysql {
+        margin-left: 6cm;
+    }
+    .phpmysql1 {
+        margin-left: 6cm;
+    }
+    .js {
+        margin-left: 6cm;
+    }
+    .js1 {
+        margin-left: 6cm;
+    }
+}
+@media screen and (max-width: 615px) {
+    .div-10 {
+        display: none;
+    }
+    .top-mw-div {
+        text-align: center;
+        font-size: 20px;
+    }
+    .html-css {
+        margin-left: 5cm;
+    }
+    .html-css1 {
+        margin-left: 5cm;
+    }
+    .wordpress {
+        margin-left: 5cm;
+    }
+    .wordpress1 {
+        margin-left: 5cm;
+    }
+    .phpmysql {
+        margin-left: 5cm;
+    }
+    .phpmysql1 {
+        margin-left: 5cm;
+    }
+    .js {
+        margin-left: 5cm;
+    }
+    .js1 {
+        margin-left: 5cm;
+    }
+}
+@media screen and (max-width: 557px) {
+    .div-10 {
+        display: none;
+    }
+    .top-mw-div {
+        text-align: center;
+        font-size: 20px;
+    }
+    .html-css {
+        margin-left: 4cm;
+    }
+    .html-css1 {
+        margin-left: 4cm;
+    }
+    .wordpress {
+        margin-left: 4cm;
+    }
+    .wordpress1 {
+        margin-left: 4cm;
+    }
+    .phpmysql {
+        margin-left: 4cm;
+    }
+    .phpmysql1 {
+        margin-left: 4cm;
+    }
+    .js {
+        margin-left: 4cm;
+    }
+    .js1 {
+        margin-left: 4cm;
+    }
+}
+@media screen and (max-width: 479px) {
+    .div-10 {
+        display: none;
+    }
+    .top-mw-div {
+        text-align: center;
+        font-size: 20px;
+    }
+    .html-css {
+        margin-left: 3cm;
+    }
+    .html-css1 {
+        margin-left: 3cm;
+    }
+    .wordpress {
+        margin-left: 3cm;
+    }
+    .wordpress1 {
+        margin-left: 3cm;
+    }
+    .phpmysql {
+        margin-left: 3cm;
+    }
+    .phpmysql1 {
+        margin-left: 3cm;
+    }
+    .js {
+        margin-left: 3cm;
+    }
+    .js1 {
+        margin-left: 3cm;
+    }
+}
+@media screen and (max-width: 417px) {
+    .div-10 {
+        display: none;
+    }
+    .top-mw-div {
+        text-align: center;
+        font-size: 20px;
+    }
+    .html-css {
+        margin-left: 2cm;
+    }
+    .html-css1 {
+        margin-left: 2cm;
+    }
+    .wordpress {
+        margin-left: 2cm;
+    }
+    .wordpress1 {
+        margin-left: 2cm;
+    }
+    .phpmysql {
+        margin-left: 2cm;
+    }
+    .phpmysql1 {
+        margin-left: 2cm;
+    }
+    .js {
+        margin-left: 2cm;
+    }
+    .js1 {
+        margin-left: 2cm;
+    }
+}
